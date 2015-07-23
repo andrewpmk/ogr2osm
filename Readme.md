@@ -17,13 +17,13 @@ It also makes use of lxml. Although it should fall back to builtin XML implement
 To install ogr2osm and download the default translations the following command 
 can be used:
 
-	git clone --recursive https://github.com/pnorman/ogr2osm
+	git clone --recursive https://github.com/andrewpmk/ogr2osm
 	
 To update
 
 	cd ogr2osm
 	git pull
-	git submodule update
+	git submodule foreach git pull origin master
 	
 About
 -----
