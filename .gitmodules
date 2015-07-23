@@ -1,4 +1,0 @@
-[submodule "translations"]
-	path = translations
-	url = git://github.com/andrewpmk/ogr2osm-translations.git
-	branch = master
